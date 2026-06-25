@@ -1,8 +1,11 @@
 body{
 background-color: black;
 color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
-
 li{
     font-size: 18px;
     color: red;
@@ -36,10 +39,17 @@ span{
 div{
     display: flex;
     flex-direction: column;
+    align-items: center;
+justify-content: center;
 }
 
 #acessivel{
-     display: fixed;
-     left: 20px;
+     position: fixed;
+     right: 20px;
      botton: 20px;
+
+}
+
+hr{
+    width: 50%;
 }
